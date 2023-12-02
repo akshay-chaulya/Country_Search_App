@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- <script src="searching.js" defer></script> -->
+</head>
+
+<body>
+    <div class="nav">
+        <div class="page__titel">Country Searching</div>
+        <div class="search__box">
+            <div class="search">
+                <input type="text" id="search--input" placeholder="search">
+                <div id="search--btn">
+                    <svg>
+                        <use xlink:href="icons.svg#icon-search"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="countrys">
+            <!-- <article class="country__card">
+                <img class="country--flag" src="" alt="">
+                <div class="country__details">
+                    <h1 class="country--name">COUNTRY</h1>
+                    <h3 class="country--region">REGION</h3>
+                    <p class="country--row"><span>👫</span>POP People</p>
+                    <p class="country--row"><span>🗣️</span>LANG</p>
+                    <p class="country--row"><span>💰</span>CUR</p>
+                </div>
+            </article>  -->
+        </div>
+        <button class="country__btn">Where am I?</button>
+    </div>
+    <div class="overly hidden"></div>
+    <div class="error__messge hidden">
+        <h1>Error</h1>
+        <p class="error--text"></p>
+        <button class="ok--btn">OK</button>
+    </div>
+    <div class="search__results">
+        <!-- <div data-index="" class="search--result">
+            <img src="https://flagcdn.com/w320/in.png" alt="" class="country--flag">
+            <p class="country--name">india</p>
+        </div> -->
+    </div>
+</body>
+
+</html>
